@@ -1,0 +1,81 @@
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.img-div {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tg-logo {
+    filter: brightness(100%);
+    width: 50%;
+}
+
+.slider-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 5%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 75%;
+  height: 30px;
+  background: #44c7f4;
+  outline: none;
+  opacity: 0.5;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  border-radius: 30px;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50px;
+  height: 50px;
+  background: #f37721;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+  width: 50px;
+  height: 50px;
+  background: #f37721;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.std-button {
+    background-color: #f37721;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    opacity: 0.5; 
+}
+
+.std-button:hover {
+    opacity: 1;
+}
